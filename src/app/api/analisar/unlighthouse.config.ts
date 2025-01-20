@@ -1,4 +1,4 @@
-module.exports = (siteUrl: any, device: any) => {
+module.exports = (siteUrl: string, device: "mobile" | "desktop") => {
   return {
     ci: {
       reporter: "json", // Remova os colchetes e passe como string simples
