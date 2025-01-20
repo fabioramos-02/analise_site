@@ -3,7 +3,7 @@ module.exports = {
     "reporter": "json",
     "outputPath": "./reports"
   },
-  "site": "https://www.sejusp.ms.gov.br/",
+  "site": "https://www.detran.ms.gov.br/",
   "debug": true,
   "scanner": {
     "device": "desktop"

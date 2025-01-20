@@ -39,3 +39,7 @@ yarn-error.log*
 # typescript
 *.tsbuildinfo
 next-env.d.ts
+
+#pasta reports
+reports
+unlighthouse.config.temp.ts
