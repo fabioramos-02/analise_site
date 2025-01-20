@@ -42,4 +42,5 @@ next-env.d.ts
 
 #pasta reports
 reports
+#ignorar arquivo abaixo
 unlighthouse.config.temp.ts

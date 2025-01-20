@@ -23,9 +23,11 @@ export async function POST(req) {
 
     for (const siteUrl of sites) {
       try {
+        console.log("Analisando site:", siteUrl);
         const startTime = Date.now();
         const config = getConfig(siteUrl, "desktop");
         const tempConfigPath = path.resolve("unlighthouse.config.temp.ts");
+        // inserir categorias que 
         const configContent = `module.exports = ${JSON.stringify(
           config,
           null,

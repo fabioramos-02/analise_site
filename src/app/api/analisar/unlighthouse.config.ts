@@ -5,7 +5,7 @@ module.exports = (siteUrl: string, device: "mobile" | "desktop") => {
       outputPath: "./reports", // Agora é um diretório
     },
     site: siteUrl, // URL do site recebida dinamicamente
-    debug: true, // Habilita logs de depuração
+    debug: false, // Habilita logs de depuração
     scanner: {
       device: device === "mobile" ? "mobile" : "desktop", // Alinhar as configurações do dispositivo
     },
